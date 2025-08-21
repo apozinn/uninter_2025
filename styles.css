@@ -1,0 +1,113 @@
+/* Fundo preto e texto branco */
+body {
+    background: #000;
+    color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Topbar simples com borda branca */
+.topbar {
+    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Links centralizados e com espaço entre eles */
+.topbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 40px;
+}
+
+/* Links com borda e efeito no hover */
+.topbar a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.topbar a:hover {
+    background: #222;
+}
+
+/* Centraliza todo o conteudo */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Título em destaque */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 40px 60px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+/* Container de contato */
+.contato-container {
+    border: 1px solid #fff;
+    padding: 40px 60px;
+    border-radius: 8px;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    min-width: 320px;
+}
+
+/* Links do contato ficam sublinhados */
+.contato-container a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Container de formação e portfólio */
+.formacao-container {
+    border: 1px solid #fff;
+    padding: 40px 60px;
+    border-radius: 8px;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    min-width: 320px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Título das seções secundárias */
+.formacao-container h2 {
+    margin-bottom: 24px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Espaço entre os itens */
+.formacao-item {
+    margin-bottom: 20px;
+}
+
+/* Nome do curso ou projeto em destaque */
+.formacao-item strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+
+/* Descrição dos itens*/
+.formacao-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.8;
+}
